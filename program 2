@@ -1,0 +1,22 @@
+n=int(input())
+ol=list(map(int,input().split()))
+el=[]
+oddl=[]
+for i in range(0,n):
+    if ol[i]%2==0:
+        el.append(ol[i])
+    else:
+        oddl.append(ol[i])
+l=el+oddl
+for i in l:
+    print(i,end=' ')
+    output:
+    == RESTART: C:/Users/S ANUPAMA/AppData/Local/Programs/Python/Python311/sort.py =
+4
+1 2 3 4
+2 4 1 3 
+
+== RESTART: C:/Users/S ANUPAMA/AppData/Local/Programs/Python/Python311/sort.py =
+6
+1 9 2 6 8 5
+2 6 8 1 9 5 
