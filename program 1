@@ -1,0 +1,19 @@
+n=int(input())
+ol=list(map(int,input().split()))
+
+nl=[]
+pl=[]
+for i in range(0,n):
+    if ol[i]>0:
+        pl.append(ol[i])
+    else:
+        nl.append(ol[i])
+l=nl+pl
+for i in l:
+    print(i,end=' ')
+    
+    output:
+    == RESTART: C:/Users/S ANUPAMA/AppData/Local/Programs/Python/Python311/sort.py =
+5
+1 9 -4 -9 0
+-4 -9 0 1 9 
